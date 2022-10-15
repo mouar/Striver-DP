@@ -23,3 +23,17 @@ int main() {
 
 	return 0;
 }
+
+/*
+	TC - O(n)
+	f(5) - O(n)
+	/  \
+  f(4)	f(3) - O(1)
+  /  \
+f(3)  f(2) - O(1)
+ .
+ .
+ .
+
+ Space Complexity - O(n) - for recursion stack , O(n) - extra space (dp)
+*/
